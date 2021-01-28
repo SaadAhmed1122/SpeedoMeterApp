@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgpic"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/currentSpeedId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="- -"
+        android:textColor="#24C10C"
+        android:textSize="50sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/tenToThirtyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="From 10Km/Hr to 30Km/Hr"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/tenToThirtyId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:layout_marginTop="19dp"
+
+        android:layout_gravity="center"
+        android:text="- -"
+        android:textColor="#24C10C"
+        android:textSize="40sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Second"
+        android:textColor="@color/white"
+        android:textSize="9sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/ThirtytotenLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:gravity="center"
+        android:layout_marginTop="26dp"
+        android:layout_gravity="center"
+        android:text="30 Km/Hr to 10 Km/Hr"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textStyle="bold"
+
+        />
+<TextView
+    android:id="@+id/thirtytotenId"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="- -"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+    android:textColor="#24C10C"
+    android:textSize="40sp"
+    android:textStyle="bold"
+    />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="Km/Hr"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textStyle="bold"
+
+        />
+</LinearLayout>
